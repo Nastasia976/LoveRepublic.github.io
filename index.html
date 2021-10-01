@@ -1,0 +1,1225 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<title>Document</title>
+	<link rel="stylesheet" href="assets/styles/css/style.css">
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__top">
+				<div class="header__top__column1">
+					<a href="#"><span>Москва</span></a>
+					<a href="#"><div class="burger"><p></p></div></a>
+				</div>
+				<div class="header__top__column2">
+					<img src="img/logo_black.png" alt="">
+				</div>
+				<div class="header__top__column3">
+					<a href="#">
+						<svg display="none">
+							<symbol viewBox="0 0 512 512" id="search">
+								<g>
+									<g>
+										<path d="M447.615,64.386C406.095,22.866,350.892,0,292.175,0s-113.92,22.866-155.439,64.386
+										C95.217,105.905,72.35,161.108,72.35,219.824c0,53.683,19.124,104.421,54.132,144.458L4.399,486.366
+										c-5.864,5.864-5.864,15.371,0,21.236C7.331,510.533,11.174,512,15.016,512s7.686-1.466,10.617-4.399l122.084-122.083
+										c40.037,35.007,90.775,54.132,144.458,54.132c58.718,0,113.919-22.866,155.439-64.386c41.519-41.519,64.385-96.722,64.385-155.439
+										S489.134,105.905,447.615,64.386z M426.379,354.029c-74.001,74-194.406,74-268.407,0c-74-74-74-194.407,0-268.407
+										c37.004-37.004,85.596-55.5,134.204-55.5c48.596,0,97.208,18.505,134.204,55.5C500.378,159.621,500.378,280.028,426.379,354.029z"
+										/>
+									</g>
+								</g>
+							</symbol>
+						</svg>
+						<svg class="search"> 
+							<use xlink:href="#search"></use>
+						</svg>
+					</a>
+					<a href="#">
+						<svg display="none">
+							<symbol viewBox="0 0 412.735 412.735" id="heart">
+								<g>
+									<g>
+										<path d="M295.706,35.522C295.706,35.522,295.706,35.522,295.706,35.522c-34.43-0.184-67.161,14.937-89.339,41.273
+										c-22.039-26.516-54.861-41.68-89.339-41.273C52.395,35.522,0,87.917,0,152.55C0,263.31,193.306,371.456,201.143,375.636
+										c3.162,2.113,7.286,2.113,10.449,0c7.837-4.18,201.143-110.759,201.143-223.086C412.735,87.917,360.339,35.522,295.706,35.522z
+										M206.367,354.738C176.065,336.975,20.898,242.412,20.898,152.55c0-53.091,43.039-96.131,96.131-96.131
+										c32.512-0.427,62.938,15.972,80.457,43.363c3.557,4.905,10.418,5.998,15.323,2.44c0.937-0.68,1.761-1.503,2.44-2.44
+										c29.055-44.435,88.631-56.903,133.066-27.848c27.202,17.787,43.575,48.114,43.521,80.615
+										C391.837,243.456,236.669,337.497,206.367,354.738z"/>
+									</g>
+								</g>
+							</symbol>
+						</svg>
+						<svg class="heart"> 
+							<use xlink:href="#heart"></use>
+						</svg>
+					</a>
+					<a href="#">
+						<svg display="none">
+							<symbol viewBox="0 0 511.808 511.808" id="bought">
+								<g>
+									<g>
+										<path d="M477.511,491.424l-26.48-348.832c-0.624-8.336-7.584-14.784-15.952-14.784H76.391c-8.368,0-15.328,6.448-15.952,14.8
+										l-26.704,352c-0.336,4.432,1.2,8.816,4.224,12.08c3.024,3.264,7.28,5.12,11.728,5.12h412.112c0.096,0,0.208,0,0.32,0
+										c8.832,0,16-7.168,16-16.016C478.119,494.288,477.911,492.816,477.511,491.424z M66.935,479.808l24.288-320h329.024l24.288,320
+										H66.935z"/>
+									</g>
+								</g>
+								<g>
+									<g>
+										<path d="M255.735,0c-70.576,0-128,57.44-128,128.032v63.776c0,8.832,7.168,16,16,16c8.832,0,16-7.168,16-16v-63.776
+										c0-52.96,43.056-96.032,96-96.032c52.944,0,96,43.072,96,96.032v63.776c0,8.832,7.168,16,16,16c8.832,0,16-7.168,16-16v-63.776
+										C383.735,57.44,326.311,0,255.735,0z"/>
+									</g>
+								</g>
+							</symbol>
+						</svg>
+						<svg class="bought"> 
+							<use xlink:href="#bought"></use>
+						</svg>
+					</a>
+					<a href="#">
+						<svg display="none">
+							<symbol viewBox="0 0 512 512" id="user">
+								<g>
+									<g>
+										<path d="M256,0c-74.439,0-135,60.561-135,135s60.561,135,135,135s135-60.561,135-135S330.439,0,256,0z M256,240
+										c-57.897,0-105-47.103-105-105c0-57.897,47.103-105,105-105c57.897,0,105,47.103,105,105C361,192.897,313.897,240,256,240z"/>
+									</g>
+								</g>
+								<g>
+									<g>
+										<path d="M423.966,358.195C387.006,320.667,338.009,300,286,300h-60c-52.008,0-101.006,20.667-137.966,58.195
+										C51.255,395.539,31,444.833,31,497c0,8.284,6.716,15,15,15h420c8.284,0,15-6.716,15-15
+										C481,444.833,460.745,395.539,423.966,358.195z M61.66,482c7.515-85.086,78.351-152,164.34-152h60
+										c85.989,0,156.825,66.914,164.34,152H61.66z"/>
+									</g>
+								</g>
+							</symbol>
+						</svg>
+						<svg class="user"> 
+							<use xlink:href="#user"></use>
+						</svg>
+					</a>
+				</div>
+			</div>
+			<div class="header__bottom">
+				<ul class="header__bottom__nav">
+
+					<a href="#"><li class="header__new"><span id="nav">новинки</span>
+						<div class="between">
+							<nav class="header__new-nav">
+							<ul class="header__ul-first">
+								<a href="#"><li>Блузки и рубашки</li></a>
+								<a href="#"><a href="#"><a href="#"><li>Брюки</li></a>
+								<a href="#"><a href="#"><li>верхняя одежда</li></a>
+								<a href="#"><li>Джинсы</li></a>
+								<a href="#"><li>Жилеты</li></a>
+								<a href="#"><li>Свитеры, кардиганы и джемперы</li></a>
+							</ul>
+							<ul class="header__ul-second">
+								<a href="#"><a href="#"><li>Комбинезоны</li></a></a>
+								<a href="#"><li>Платья</li></a>
+								<a href="#"><li>Пиджаки и жакеты</li></a>
+								<a href="#"><li>Спортивные костюмы</li></a>
+								<a href="#"><li>Топы и боди</li></a>
+								<a href="#"><li>Футболки</li></a>
+							</ul>
+							<ul class="header__ul-last">
+								<a href="#"><li>Футболки</li></a>
+								<a href="#"><li>Юбки</li></a>
+							</ul>
+						    </nav>
+						</div>
+					</li>
+					<a href="#"><li class="header__clothes"><span id="nav">одежда</span>
+						<div class="between">
+						<nav class="header__clothes-nav">
+							<ul class="header__ul-first">
+								<a href="#"><li>BESTSELLER</li></a>
+								<a href="#"><li>OFFICE LOOK</li></a>
+								<a href="#"><li>ВЫБОР БЛОГЕРОВ</li></a>
+								<a href="#"><li>LOVE YOURSELF</li></a>
+								<a href="#"><li>ЭКСКЛЮЗИВНО ONLINE</li></a>
+								<a href="#"><li>Блузки</li></a>
+							</ul>
+							<ul class="header__ul-second">
+								<a href="#"><a href="#"><li>Боди</li></a>
+								<a href="#"><li>Брюки</li></a>
+								<a href="#"><li>Верхняя одежда</li></a>
+								<a href="#"><li>Джемперы</li></a>
+								<a href="#"><li>Джинсы</li></a>
+								<a href="#"><li>Жакеты</li></a>
+							</ul>
+							<ul class="header__ul-third">
+								<a href="#"><li>Жилеты</li></a>
+								<a href="#"><li>Кардиганы</li></a>
+								<a href="#"><li>Комбинезоны</li></a>
+								<a href="#"><li>Одежда для дома</li></a>
+								<a href="#"><li>Платья</li></a>
+								<a href="#"><li>Свитеры</li></a>
+							</ul>
+							<ul class="header__ul-last">
+								<a href="#"><li>Спортивные костюмы</li></a>
+								<a href="#"><a href="#"><li>Топы</li></a>
+								<a href="#"><li>Футболки</li></a>
+								<a href="#"><li>Шорты</li></a>
+								<a href="#"><li>Юбки</li></a>
+							</ul>
+						</nav>
+					</div>
+						
+					</li>
+					<a href="#"><li class="header__acss"><span id="nav">аксессуары</span>
+						<div class="between">
+						<nav class="header__acss-nav">
+							<ul class="header__ul-first">
+								<a href="#"><a href="#"><li>Кошельки</li></a>
+								<a href="#"><li>Очки</li></a>
+								<a href="#"><li>Парфюм</li></a>
+								<a href="#"><li>Перчатки</li></a>
+								<a href="#"><li>Платки</li></a>
+								<a href="#"><li>Ремни</li></a>
+							</ul>
+							<ul class="header__ul-last">
+								<a href="#"><li>Сумки</li></a>
+								<a href="#"><li>Украшения</li></a>
+								<a href="#"><a href="#"><li>Шапки</li></a>
+								<a href="#"><li>Шарфы</li></a>
+							</ul>
+						</nav>
+					</div>
+					</li>
+					<a href="#"><li class="header__sale"><span class="red-link" id="nav">sale</span>
+						<div class="between">
+						<nav class="header__sale-nav">
+							<ul class="header__ul-first">
+								<a href="#"><li>Платья</li></a>
+								<a href="#"><li>Шорты</li></a>
+								<a href="#"><li>Топы и боди</li></a>
+								<a href="#"><li>Футболки</li></a>
+								<a href="#"><li>Блузки и рубашки</li></a>
+								<a href="#"><li>Брюки</li></a>
+							</ul>
+							<ul class="header__ul-second">
+								<a href="#"><li>Юбки</li></a>
+								<a href="#"><li>Джинсы</li></a>
+								<a href="#"><li>Жилеты</li></a>
+								<a href="#"><li>Комбинезоны</li></a>
+								<a href="#"><li>Одежда для дома</li></a>
+								<a href="#"><li>Куртки</li></a>
+							</ul>
+							<ul class="header__ul-last">
+								<a href="#"><li>Пальто</li></a>
+								<a href="#"><li>Парфюм</li></a>
+								<a href="#"><li>Пиджаки и жакеты</li></a>
+								<a href="#"><li>Плащи</li></a>
+								<a href="#"><li>Свитеры, кардиганы и джемперы</li></a>
+							</ul>
+						</nav>
+					</div>
+					</li>
+					<a href="#"><li class="header__look"><span id="nav">lookbook</span></li></a>
+					<a href="#"><li class="header__love"><span id="nav">love 2.0</span></li></a>
+				</ul>
+			</div>
+		</header>
+		<div class="left-menu">
+			<ul class="nav-menu">
+				<a href="#"><li>главная <p>войти</p></li></a>
+				<a href="#"><li>москва</li></a>
+				<a href="#"><li>новинки <span class="pluse-new"></span>
+					<ul class="menu-new">
+						<a href="#"><li>Блузки и рубашки</li></a>
+						<a href="#"><li>Брюки</li></a>
+						<a href="#"><li>Верхняя одежда</li></a>
+						<a href="#"><li>Джинсы</li></a>
+						<a href="#"><li>Жилеты</li></a>
+						<a href="#"><li>Свитеры, кардиганы и джемперы</li></a>
+						<a href="#"><li>Комбинезоны</li></a>
+						<a href="#"><li>Платья</li></a>
+						<a href="#"><li>Пиджаки и жакеты</li></a>
+						<a href="#"><li>Спортивные костюмы</li></a>
+						<a href="#"><li>Топы и боди</li></a>
+						<a href="#"><li>Футболки</li></a>
+						<a href="#"><li>Шорты</li></a>
+						<a href="#"><li>Юбки</li></a>
+					</ul>
+				</li></a>
+				<a href="#"><li>одежда  <span class="pluse-clothes"></span>
+					<ul class="menu-clothes">
+						<a href="#"><li>BESTSELLER</li></a>
+						<a href="#"><li>OFFICE LOOK</li></a>
+						<a href="#"><li>ВЫБОР БЛОГЕРОВ</li></a>
+						<a href="#"><li>LOVE YOURSELF</li></a>
+						<a href="#"><li>ЭКСКЛЮЗИВНО ONLINE</li></a>
+						<a href="#"><li>Блузки</li></a>
+						<a href="#"><a href="#"><li>Боди</li></a>
+						<a href="#"><li>Брюки</li></a>
+						<a href="#"><li>Верхняя одежда</li></a>
+						<a href="#"><li>Джемперы</li></a>
+						<a href="#"><li>Джинсы</li></a>
+						<a href="#"><li>Жакеты</li></a>
+						<a href="#"><li>Жилеты</li></a>
+						<a href="#"><li>Кардиганы</li></a>
+						<a href="#"><li>Комбинезоны</li></a>
+						<a href="#"><li>Одежда для дома</li></a>
+						<a href="#"><li>Платья</li></a>
+						<a href="#"><li>Свитеры</li></a>
+						<a href="#"><li>Спортивные костюмы</li></a>
+						<a href="#"><a href="#"><li>Топы</li></a>
+						<a href="#"><li>Футболки</li></a>
+						<a href="#"><li>Шорты</li></a>
+						<a href="#"><li>Юбки</li></a>
+					</ul>
+				</li></a>
+				<a href="#"><li>аксессуары  <span class="pluse-acs"></span>
+					<ul class="menu-acs">
+						<a href="#"><a href="#"><li>Кошельки</li></a>
+						<a href="#"><li>Очки</li></a>
+						<a href="#"><li>Парфюм</li></a>
+						<a href="#"><li>Перчатки</li></a>
+						<a href="#"><li>Платки</li></a>
+						<a href="#"><li>Ремни</li></a>
+						<a href="#"><li>Сумки</li></a>
+						<a href="#"><li>Украшения</li></a>
+						<a href="#"><a href="#"><li>Шапки</li></a>
+						<a href="#"><li>Шарфы</li></a>
+					</ul>
+				</li></a>
+				<a href="#"><li>sale <span class="pluse-sale"></span>
+					<ul class="menu-sale">
+						<a href="#"><li>Платья</li></a>
+						<a href="#"><li>Шорты</li></a>
+						<a href="#"><li>Топы и боди</li></a>
+						<a href="#"><li>Футболки</li></a>
+						<a href="#"><li>Блузки и рубашки</li></a>
+						<a href="#"><li>Брюки</li></a>
+						<a href="#"><li>Юбки</li></a>
+						<a href="#"><li>Джинсы</li></a>
+						<a href="#"><li>Жилеты</li></a>
+						<a href="#"><li>Комбинезоны</li></a>
+						<a href="#"><li>Одежда для дома</li></a>
+						<a href="#"><li>Куртки</li></a>
+						<a href="#"><li>Пальто</li></a>
+						<a href="#"><li>Парфюм</li></a>
+						<a href="#"><li>Пиджаки и жакеты</li></a>
+						<a href="#"><li>Плащи</li></a>
+						<a href="#"><li>Свитеры, кардиганы и джемперы</li></a>
+					</ul>
+				</li></a>
+				<a href="#"><li>lookbook</li></a>
+				<a href="#"><li>love 2.0</li></a>
+				<a href="#"><li>магазины</li></a>
+				<a href="#"><li>информация <span class="pluse-info"></span>
+					<ul class="menu-info">
+						<a href="#"><li>Оплата</li></a>
+						<a href="#"><li>Покупка в рассрочку</li></a>
+						<a href="#"><li>Доставка</li></a>
+						<a href="#"><li>Обмен и возврат</li></a>
+						<a href="#"><li>Таблица размеров</li></a>
+						<a href="#"><li>Подарочная карта</li></a>
+						<a href="#"><li>Программа лояльности</li></a>
+						<a href="#"><li>Политика конфиденциальности</li></a>
+						<a href="#"><li>Правила работы интернет-магазина</li></a>
+						<a href="#"><li>Пользовательское соглашение</li></a>
+						<a href="#"><li>Правила проведения конкурса «Шопинг с подругой»</li></a>
+						<a href="#"><li>Privacy policy</li></a>
+						<a href="#"><a href="#"><li>Часто задаваемые вопросы</li></a>
+						<a href="#"><li>Контакты</li></a>
+						<a href="#"><li>Обратная связь</li></a>
+					</ul>
+				</li></a>
+				<a href="#"><li>франчайзинг <span class="pluse-franch"></span>
+					<ul class="menu-franch">
+						<a href="#"><li>О бренде</li></a>
+						<a href="#"><li>О компании</li></a>
+						<a href="#"><li>Новости и акции</li></a>
+						<a href="#"><li>Карьера в LOVE REPUBLIC</li></a>
+						<a href="#"><li>Видео</li></a>
+						<a href="#"><li>Франчайзинг</li></a>
+					</ul>
+				</li></a>
+			</ul>
+		</div>
+		<main class="main">
+			<div class="block1">
+				<div class="block1__item"><img class="view1" src="img/block1/1.jpg" alt=""><img class="view2" src="img/block1/1_2.jpg" alt=""></div>
+			
+				<div class="block1__item"><img class="view1" src="img/block1/2.jpg" alt=""><img class="view2" src="img/block1/2_2.jpg" alt=""></div>
+				
+			</div>
+			<div class="block3">
+				<div class="block3__title"><a href="#"> НОВЫЕ ПОСТУПЛЕНИЯ</a></div>
+				<div class="block3__text">Бесплатная доставка при покупке от 3000 рублей</div>
+			</div>
+			<div class="block4">
+				<div class="block4__conteiner">
+					<div class="block4__conteiner__item">
+						<div class="block4__conteiner__item__image"><img class="bl3-img1" src="img/block2/1.jpg" alt=""></div>
+						<div class="block4__conteiner__item__text">КРОП - СВИТЕР С ГОРЛОМ</div>
+						<span></span>
+						<div class="block4__conteiner__item__prise">2 999 ₽ <h3>></h3></div>
+					</div>
+					<div class="block4__conteiner__item">
+						<div class="block4__conteiner__item__image"><img class="bl3-img2" src="img/block2/2.jpg" alt=""></div>
+						<div class="block4__conteiner__item__text">ВЫБОР БЛОГЕРОВ</div>
+						<span></span>
+						<div class="block4__conteiner__item__prise">смотреть <h3>></h3></div>
+					</div>
+				</div>
+				<div class="block4__conteiner_active">
+					<div class="block4__conteiner__item">
+						<div class="block4__conteiner__item__image"><img class="bl3-img1" src="img/block2/1.jpg" alt=""></div>
+						<div class="block4__conteiner__item__text">КРОП - СВИТЕР С ГОРЛОМ</div>
+						<span></span>
+						<div class="block4__conteiner__item__prise">2 999 ₽ <h3>></h3></div>
+					</div>
+					<div class="block4__conteiner__item">
+						<div class="block4__conteiner__item__image"><img class="bl3-img2" src="img/block2/2.jpg" alt=""></div>
+						<div class="block4__conteiner__item__text">ВЫБОР БЛОГЕРОВ</div>
+						<span></span>
+						<div class="block4__conteiner__item__prise">смотреть <h3>></h3></div>
+					</div>
+				</div>
+			</div>
+			<div class="block5">
+				<div class="block5__title">НАШИ ОБРАЗЫ В INSTAGRAM</div>
+				<div class="slider">
+					<div class="slider__item">
+						<span class="cop"></span><span class="cop2"></span>
+						<img src="img/block3/insta.png" alt="" class="insta">
+						<div class="slider__image"><img src="img/block3/slid1__foto1.jpeg" alt=""></div>
+						<div class="slider__fon _1"><div class="fon"><img src="img/block3/fon.png" alt="b"><span>смотреть образ</span></div></div>
+					</div>
+					<div class="slider__item">
+						<span class="cop"></span><span class="cop2"></span>
+						<img src="img/block3/insta.png" alt="" class="insta">
+						<div class="slider__image"><img src="img/block3/slid2__foto1.jpeg" alt=""></div>
+						<div class="slider__fon _2"><div class="fon"><img src="img/block3/fon.png" alt="b"><span>смотреть образ</span></div></div>
+					</div>
+					<div class="slider__item">
+						<span class="cop"></span><span class="cop2"></span>
+						<img src="img/block3/insta.png" alt="" class="insta">
+						<div class="slider__image"><img src="img/block3/slid3__foto1.jpeg" alt=""></div>
+						<div class="slider__fon _3"><div class="fon"><img src="img/block3/fon.png" alt="b"><span>смотреть образ</span></div></div>
+					</div>
+					<div class="slider__item">
+						<span class="cop"></span><span class="cop2"></span>
+						<img src="img/block3/insta.png" alt="" class="insta">
+						<div class="slider__image"><img src="img/block3/slid4__foto1.jpeg" alt=""></div>
+						<div class="slider__fon _4"><div class="fon"><img src="img/block3/fon.png" alt="b"><span>смотреть образ</span></div></div>
+					</div>
+					<div class="slider__item">
+						<span class="cop"></span><span class="cop2"></span>
+						<img src="img/block3/insta.png" alt="" class="insta">
+						<div class="slider__image"><img src="img/block3/slid5__foto1.jpeg" alt=""></div>
+						<div class="slider__fon"><div class="fon"><img src="img/block3/fon.png" alt="b"><span>смотреть образ</span></div></div>
+					</div>
+					<div class="slider__item">
+						<span class="cop"></span><span class="cop2"></span>
+						<img src="img/block3/insta.png" alt="" class="insta">
+						<div class="slider__image"><img src="img/block3/slid6__foto1.jpeg" alt=""></div>
+						<div class="slider__fon"><div class="fon"><img src="img/block3/fon.png" alt="b"><span>смотреть образ</span></div></div>
+					</div>
+					<div class="slider__item">
+						<span class="cop"></span><span class="cop2"></span>
+						<img src="img/block3/insta.png" alt="" class="insta">
+						<div class="slider__image"><img src="img/block3/slid7__foto1.jpeg" alt=""></div>
+						<div class="slider__fon"><div class="fon"><img src="img/block3/fon.png" alt="b"><span>смотреть образ</span></div></div>
+					</div>
+					<div class="slider__item">
+						<span class="cop"></span><span class="cop2"></span>
+						<img src="img/block3/insta.png" alt="" class="insta">
+						<div class="slider__image"><img src="img/block3/slid8__foto1.jpeg" alt=""></div>
+						<div class="slider__fon"><div class="fon"><img src="img/block3/fon.png" alt="b"><span>смотреть образ</span></div></div>
+					</div>
+					<div class="slider__item">
+						<span class="cop"></span><span class="cop2"></span>
+						<img src="img/block3/insta.png" alt="" class="insta">
+						<div class="slider__image"><img src="img/block3/slid9__foto1.jpeg" alt=""></div>
+						<div class="slider__fon"><div class="fon"><img src="img/block3/fon.png" alt="b"><span>смотреть образ</span></div></div>
+					</div>
+					<div class="slider__item">
+						<span class="cop"></span><span class="cop2"></span>
+						<img src="img/block3/insta.png" alt="" class="insta">
+						<div class="slider__image"><img src="img/block3/slid10__foto1.jpeg" alt=""></div>
+						<div class="slider__fon"><div class="fon"><img src="img/block3/fon.png" alt="b"><span>смотреть образ</span></div></div>
+					</div>
+					<div class="slider__item">
+						<span class="cop"></span><span class="cop2"></span>
+						<img src="img/block3/insta.png" alt="" class="insta">
+						<div class="slider__image"><img src="img/block3/slid11__foto1.jpeg" alt=""></div>
+						<div class="slider__fon"><div class="fon"><img src="img/block3/fon.png" alt="b"><span>смотреть образ</span></div></div>
+					</div>
+					<div class="slider__item">
+						<span class="cop"></span><span class="cop2"></span>
+						<img src="img/block3/insta.png" alt="" class="insta">
+						<div class="slider__image"><img src="img/block3/slid12__foto1.jpeg" alt=""></div>
+						<div class="slider__fon"><div class="fon"><img src="img/block3/fon.png" alt="b"><span>смотреть образ</span></div></div>
+					</div>
+					<div class="slider__item">
+						<span class="cop"></span><span class="cop2"></span>
+						<img src="img/block3/insta.png" alt="" class="insta">
+						<div class="slider__image"><video src="img/block3/video/1.mp4" alt=""></video></div>
+						<div class="slider__fon"><div class="fon"><img src="img/block3/fon.png" alt="b"><span>смотреть образ</span></div></div>
+					</div>
+					<div class="slider__item">
+						<span class="cop"></span><span class="cop2"></span>
+						<img src="img/block3/insta.png" alt="" class="insta">
+						<div class="slider__image"><img src="img/block3/slid14__foto1.jpeg" alt=""></div>
+						<div class="slider__fon"><div class="fon"><img src="img/block3/fon.png" alt="b"><span>смотреть образ</span></div></div>
+					</div>
+					<div class="slider__item">
+						<span class="cop"></span><span class="cop2"></span>
+						<img src="img/block3/insta.png" alt="" class="insta">
+						<div class="slider__image"><img src="img/block3/slid14__foto2.jpeg" alt=""></div>
+						<div class="slider__fon"><div class="fon"><img src="img/block3/fon.png" alt="b"><span>смотреть образ</span></div></div>
+					</div>
+					<div class="slider__item">
+						<span class="cop"></span><span class="cop2"></span>
+						<img src="img/block3/insta.png" alt="" class="insta">
+						<div class="slider__image"><video src="img/block3/video/2.mp4" alt=""></video></div>
+						<div class="slider__fon"><div class="fon"><img src="img/block3/fon.png" alt="b"><span>смотреть образ</span></div></div>
+					</div>
+
+				</div>
+				<div class="block5__text">СМОТРЕТЬ БОЛЬШЕ ></div>
+			</div>
+			<div class="block6">
+				<a href="#"><div class="close"></div></a>
+                <div class="appendArrows"></div>
+				<div class="scrol">
+					<div class="scrol__item">
+						<div class="scrol__item__column-left">
+						<div class="small-scrol">
+							<div class="small-scrol__image"><img src="img/block3/slid1__foto1.jpeg" alt="1"></div>
+							<div class="small-scrol__image"><img src="img/block3/slid1__foto2.jpeg" alt="1"></div>
+						</div>
+						</div>
+						<div class="scrol__item__column-right">
+							<div class="card__title">
+								<img class="minlogo" src="img/block3/min.jpg" alt=""><span class="rep">@Loverepublic_official</span><img class="min-heart" src="img/header/heart.png" alt=""><p class="like">1.4k</p><img class="sms" src="img/block3/sms.png" alt=""> <p class="plast">1</p> 
+							</div>
+
+						<div class="block-for-card">
+							<a href="#"><div class="card">
+								<div class="card__image">
+								<img src="img/block3/shirt.jpg" alt="sh">
+								</div>
+								<div class="card__text">хлопковая блузка с декоративной лентой</div>
+								<div class="card__price">2 999 ₽</div>
+								<div class="card__button">купить</div>
+							</div></a>
+							<a href="#"><div class="card">
+								<div class="card__image">
+								<img src="img/block3/jeanse.jpg" alt="sh">
+								</div>
+								<div class="card__text">джинсы с высокой посадкой</div>
+								<div class="card__price">2 999 ₽</div>
+								<div class="card__button">купить</div>
+							</div></a>
+						</div>
+
+						<div class="right-last">
+							<div class="post"><p>Черная рубашка + черные скини - всегда беспроигрышный вариант 🖤</p>
+							<p class="hesh"><a href="#"> #loverepublic</a></p></div>
+						</div>
+					    </div>
+					</div>
+					<div class="scrol__item">
+						<div class="scrol__item__column-left">
+						<div class="small-scrol">
+							<div class="small-scrol__image"><img src="img/block3/slid2__foto1.jpeg" alt="1"></div>
+							<div class="small-scrol__image"><img src="img/block3/slid2__foto2.jpeg" alt="1"></div>
+							<div class="small-scrol__image"><img src="img/block3/slid2__foto3.jpeg" alt="1"></div>
+						</div>
+						</div>
+						<div class="scrol__item__column-right">
+							<div class="card__title"><img class="minlogo" src="img/block3/min.jpg" alt=""><span class="rep">@Loverepublic_official</span><img class="min-heart" src="img/header/heart.png" alt=""><p class="like">1.4k</p><img class="sms" src="img/block3/sms.png" alt=""> <p class="plast">1</p> 
+							</div>
+
+
+						<div class="block-for-card">
+							<a href="#"><div class="card">
+								<div class="card__image">
+								<img src="img/block3/slide2_1.jpg" alt="sh">
+								</div>
+								<div class="card__text">Брючный комбинезон с поясом</div>
+								<div class="card__price">3 999 ₽ <p class="sell">4 999 ₽</p></div>
+								<div class="card__button">купить</div>
+							</div></a>
+							<a href="#"><div class="card">
+								<div class="card__image">
+								<img src="img/block3/slide2_2.jpg" alt="sh">
+								</div>
+								<div class="card__text">АССИМЕТРИЧНЫЙ ПОЯС С ПРЯЖКОЙ</div>
+								<div class="card__price">1 799 ₽</div>
+								<div class="card__button">купить</div>
+							</div></a>
+						</div>
+
+						<div class="right-last">
+							<div class="post"><p>Total black: для моментов, когда хочется выглядеть безупречно 🖤</p>
+							<p class="hesh"><a href="#"> #loverepublic</a></p></div>
+						</div>
+						</div>
+					</div>
+					<div class="scrol__item">
+						<div class="scrol__item__column-left">
+						<div class="small-scrol">
+							<div class="small-scrol__image"><img src="img/block3/slid3__foto1.jpeg" alt="1"></div>
+							<div class="small-scrol__image"><img src="img/block3/slid3__foto2.jpeg" alt="1"></div>
+							<div class="small-scrol__image"><img src="img/block3/slid3__foto4.jpeg" alt="1"></div>
+							<div class="small-scrol__image"><img src="img/block3/slid3__foto5.jpeg" alt="1"></div>
+							<div class="small-scrol__image"><img src="img/block3/slid3__foto6.jpeg" alt="1"></div>
+							<div class="small-scrol__image"><img src="img/block3/slid3__foto7.jpeg" alt="1"></div>
+						</div>
+						</div>
+						<div class="scrol__item__column-right">
+							<div class="card__title"><img class="minlogo" src="img/block3/min.jpg" alt=""><span class="rep">@Loverepublic_official</span><img class="min-heart" src="img/header/heart.png" alt=""><p class="like">1.4k</p><img class="sms" src="img/block3/sms.png" alt=""> <p class="plast">1</p>
+							 </div>
+
+						<div class="block-for-card">
+							<a href="#"><div class="card">
+								<div class="card__image">
+								<img src="img/block3/slide3_1.jpg" alt="sh">
+								</div>
+								<div class="card__text">OVERSIZE ТРЕНЧ В КЛЕТКУ</div>
+								<div class="card__price">2 999 ₽</div>
+								<div class="card__button">купить</div>
+							</div></a>
+						</div>
+						<div class="right-last">
+							<div class="post"><p>Клетка или монохром? Голосуй за лучший тренч в комментариях 🤍</p>
+							<p class="hesh"><a href="#"> #loverepublic</a></p></div>
+						</div>
+						</div>
+					</div>
+					<div class="scrol__item">
+						<div class="scrol__item__column-left">
+						<div class="small-scrol">
+							<div class="small-scrol__image"><img src="img/block3/slid4__foto1.jpeg" alt="1"></div>
+							<div class="small-scrol__image"><img src="img/block3/slid4__foto2.jpeg" alt="1"></div>
+						</div>
+						</div>
+						<div class="scrol__item__column-right">
+							<div class="card__title"><img class="minlogo" src="img/block3/min.jpg" alt=""><span class="rep">@Loverepublic_official</span><img class="min-heart" src="img/header/heart.png" alt=""><p class="like">1.4k</p><img class="sms" src="img/block3/sms.png" alt=""> <p class="plast">1</p> 
+							</div>
+
+						<div class="block-for-card">
+							<a href="#"><div class="card">
+								<div class="card__image">
+								<img src="img/block3/slide4_1.jpg" alt="sh">
+								</div>
+								<div class="card__text">КРОП-ТОП НА ШИРОКИХ БРЕТЕЛЯХ</div>
+								<div class="card__price">2 079 ₽<p class="sell">2 599 ₽</p></div>
+								<div class="card__button">купить</div>
+							</div></a>
+							<a href="#"><div class="card">
+								<div class="card__image">
+								<img src="img/block3/slide4_2.jpg" alt="sh">
+								</div>
+								<div class="card__text">УКОРОЧЕННЫЙ ДВУБОРТНЫЙ ЖАКЕТ</div>
+								<div class="card__price">3 199 ₽ <p class="sell">3 999 ₽</p></div>
+								<div class="card__button">купить</div>
+							</div></a>
+							<a href="#"><div class="card">
+								<div class="card__image">
+								<img src="img/block3/slide4_3.jpg" alt="sh">
+								</div>
+								<div class="card__text">БРЮКИ-ПЛАЦЦО С ЗАЩИПАМИ</div>
+								<div class="card__price">2 879 ₽ <p class="sell">3 599 ₽</p></div>
+								<div class="card__button">купить</div>
+							</div></a>
+						</div>
+
+						<div class="right-last">
+							<div class="post"><p>Планы на пятницу: провести последние рабочие встречи и пойти на любимую веранду — ведь лето еще продолжается ❤️‍🔥Lorem ipsum, dolor sit, amet consectetur adipisicing elit. Asperiores facere alias fuga adipisci voluptatum officia veniam temporibus similique tempora amet, unde tenetur, ut architecto autem quis quidem sapiente porro possimus.</p>
+							<p class="hesh"><a href="#"> #loverepublic</a></p></div>
+						</div>
+						</div>
+					</div>
+					<div class="scrol__item">
+						<div class="scrol__item__column-left">
+						<div class="small-scrol">
+							<div class="small-scrol__image"><img src="img/block3/slid5__foto1.jpeg" alt="1"></div>
+							<div class="small-scrol__image"><img src="img/block3/slid5__foto2.jpeg" alt="1"></div>
+						</div>
+						</div>
+						<div class="scrol__item__column-right">
+							<div class="card__title"><img class="minlogo" src="img/block3/min.jpg" alt=""><span class="rep">@Loverepublic_official</span><img class="min-heart" src="img/header/heart.png" alt=""><p class="like">1.4k</p><img class="sms" src="img/block3/sms.png" alt=""> <p class="plast">1</p> 
+							</div>
+
+
+						<div class="block-for-card">
+							<a href="#"><div class="card">
+								<div class="card__image">
+								<img src="img/block3/slide5_1.jpg" alt="sh">
+								</div>
+								<div class="card__text">ДВУБОРТНЫЙ ЖАКЕТ</div>
+								<div class="card__price">3 679 ₽<p class="sell">4 599 ₽</p></div>
+								<div class="card__button">купить</div>
+							</div></a>
+							<a href="#"><div class="card">
+								<div class="card__image">
+								<img src="img/block3/slide5_2.jpg" alt="sh">
+								</div>
+								<div class="card__text">ТРЕНЧ ИЗ ЭКОЗАМШИ</div>
+								<div class="card__price">7 999 ₽</div>
+								<div class="card__button">купить</div>
+							</div></a>
+							<a href="#"><div class="card">
+								<div class="card__image">
+								<img src="img/block3/slide5_3.jpg" alt="sh">
+								</div>
+								<div class="card__text">ТРИКОТАЖНОЕ БОДИ С ЧАШЕЧКАМИ</div>
+								<div class="card__price">1 263 ₽<p class="sell">1 799 ₽</p></div>
+								<div class="card__button">купить</div>
+							</div></a>
+						</div>
+
+						<div class="right-last">
+							<div class="post"><p>Strong & sensual 💔</p>
+							<p class="hesh"><a href="#"> #loverepublic</a></p></div>
+						</div>
+						</div>
+					</div>
+					<div class="scrol__item">
+						<div class="scrol__item__column-left">
+						<div class="small-scrol">
+							<div class="small-scrol__image"><img src="img/block3/slid6__foto1.jpeg" alt="1"></div>
+							<div class="small-scrol__image"><img src="img/block3/slid6__foto2.jpeg" alt="1"></div>
+						</div>
+						</div>
+						<div class="scrol__item__column-right">
+							<div class="card__title"><img class="minlogo" src="img/block3/min.jpg" alt=""><span class="rep">@Loverepublic_official</span><img class="min-heart" src="img/header/heart.png" alt=""><p class="like">1.4k</p><img class="sms" src="img/block3/sms.png" alt=""> <p class="plast">1</p> 
+							</div>
+
+						<div class="block-for-card">
+							<a href="#"><div class="card">
+								<div class="card__image">
+								<img src="img/block3/slide6_1.jpg" alt="sh">
+								</div>
+								<div class="card__text">ПЛАТЬЕ-ФУТЛЯР ИЗ ЭКОКОЖИ</div>
+								<div class="card__price">3 999 ₽</div>
+								<div class="card__button">купить</div>
+							</div></a>
+						</div>
+
+						<div class="right-last">
+							<div class="post">
+							<p class="hesh"><a href="#"> #loverepublic</a></p></div>
+						</div>
+						</div>
+					</div>
+					<div class="scrol__item">
+						<div class="scrol__item__column-left">
+						<div class="small-scrol">
+							<div class="small-scrol__image"><img src="img/block3/slid7__foto1.jpeg" alt="1"></div>
+							<div class="small-scrol__image"><img src="img/block3/slid7__foto2.jpeg" alt="1"></div>
+							<div class="small-scrol__image"><img src="img/block3/slid7__foto3.jpeg" alt="1"></div>
+						</div>
+						</div>
+						<div class="scrol__item__column-right">
+							<div class="card__title"><img class="minlogo" src="img/block3/min.jpg" alt=""><span class="rep">@Loverepublic_official</span><img class="min-heart" src="img/header/heart.png" alt=""><p class="like">1.4k</p><img class="sms" src="img/block3/sms.png" alt=""> <p class="plast">1</p> 
+							</div>
+
+
+						<div class="block-for-card">
+							<a href="#"><div class="card">
+								<div class="card__image">
+								<img src="img/block3/slide7_1.jpg" alt="sh">
+								</div>
+								<div class="card__text">БЕРЕТ ИЗ ЭКОКОЖИ</div>
+								<div class="card__price">1 799 ₽</div>
+								<div class="card__button">купить</div>
+							</div></a>
+							<a href="#"><div class="card">
+								<div class="card__image">
+								<img src="img/block3/slide7_2.jpg" alt="sh">
+								</div>
+								<div class="card__text">КРОП-ТОП С ДЛИННЫМ РУКАВОМ</div>
+								<div class="card__price">1 999 ₽</div>
+								<div class="card__button">купить</div>
+							</div></a>
+							<a href="#"><div class="card">
+								<div class="card__image">
+								<img src="img/block3/slide7_3.jpg" alt="sh">
+								</div>
+								<div class="card__text">ПЛИССИРОВАННАЯ ЮБКА МИНИ</div>
+								<div class="card__price">2 099 ₽<p class="sell">2 999 ₽</p></div>
+								<div class="card__button">купить</div>
+							</div></a>
+						</div>
+
+						<div class="right-last">
+							<div class="post"><p>Monday mood with #loverepublic 🔥</p>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="scrol__item">
+						<div class="scrol__item__column-left">
+						<div class="small-scrol">
+							<div class="small-scrol__image"><img src="img/block3/slid8__foto1.jpeg" alt="1"></div>
+							<div class="small-scrol__image"><img src="img/block3/slid8__foto2.jpeg" alt="1"></div>
+						</div>
+						</div>
+						<div class="scrol__item__column-right">
+							<div class="card__title"><img class="minlogo" src="img/block3/min.jpg" alt=""><span class="rep">@Loverepublic_official</span><img class="min-heart" src="img/header/heart.png" alt=""><p class="like">1.4k</p><img class="sms" src="img/block3/sms.png" alt=""> <p class="plast">1</p> 
+							</div>
+
+
+						<div class="block-for-card">
+							<a href="#"><div class="card">
+								<div class="card__image">
+								<img src="img/block3/slide8_1.jpg" alt="sh">
+								</div>
+								<div class="card__text">УКОРОЧЕННЫЙ ДВУБОРТНЫЙ ЖАКЕТ</div>
+								<div class="card__price">3 199 ₽<p class="sell">3 999 ₽</p></div>
+								<div class="card__button">купить</div>
+							</div></a>
+						</div>
+
+						<div class="right-last">
+							<div class="post"><p>Еще один повод для яркого вечера ♥️</p>
+							<p class="hesh"><a href="#"> #loverepublic</a></p></div>
+						</div>
+						</div>
+					</div>
+					<div class="scrol__item">
+						<div class="scrol__item__column-left">
+						<div class="small-scrol">
+							<div class="small-scrol__image"><img src="img/block3/slid9__foto1.jpeg" alt="1"></div>
+							<div class="small-scrol__image"><img src="img/block3/slid9__foto2.jpeg" alt="1"></div>
+						</div>
+						</div>
+						<div class="scrol__item__column-right">
+							<div class="card__title"><img class="minlogo" src="img/block3/min.jpg" alt=""><span class="rep">@Loverepublic_official</span><img class="min-heart" src="img/header/heart.png" alt=""><p class="like">1.4k</p><img class="sms" src="img/block3/sms.png" alt=""> <p class="plast">1</p> 
+							</div>
+
+
+						<div class="block-for-card">
+							<a href="#"><div class="card">
+								<div class="card__image">
+								<img src="img/block3/slide9_1.jpg" alt="sh">
+								</div>
+								<div class="card__text">ПОЛУКОЛЬЦА СО СТРАЗАМИ</div>
+								<div class="card__price">699 ₽</div>
+								<div class="card__button">купить</div>
+							</div></a>
+							<a href="#"><div class="card">
+								<div class="card__image">
+								<img src="img/block3/slide9_2.jpg" alt="sh">
+								</div>
+								<div class="card__text">КРОП-ТОП ИЗ ПЛОТНОГО ТРИКОТАЖА</div>
+								<div class="card__price">1 599 ₽<p class="sell">2 199 ₽</p></div>
+								<div class="card__button">купить</div>
+							</div></a>
+							<a href="#"><div class="card">
+								<div class="card__image">
+								<img src="img/block3/slide9_3.jpg" alt="sh">
+								</div>
+								<div class="card__text">ПРЯМЫЕ БРЮКИ С ПРИНТОМ ГУСИНАЯ ЛАПКА</div>
+								<div class="card__price">2 399 ₽<p class="sell">2 999 ₽</p></div>
+								<div class="card__button">купить</div>
+							</div></a>
+						</div>
+
+						<div class="right-last">
+							<div class="post"><p>Дерзкий и притягательный стиль — это про тебя 💔</p>
+							<p class="hesh"><a href="#">#loverepublic</a></p></div>
+						</div>
+						</div>
+					</div>
+					<div class="scrol__item">
+						<div class="scrol__item__column-left">
+						<div class="small-scrol">
+							<div class="small-scrol__image"><img src="img/block3/slid10__foto1.jpeg" alt="1"></div>
+							<div class="small-scrol__image"><img src="img/block3/slid10__foto2.jpeg" alt="1"></div>
+						</div>
+						</div>
+						<div class="scrol__item__column-right">
+							<div class="card__title"><img class="minlogo" src="img/block3/min.jpg" alt=""><span class="rep">@Loverepublic_official</span><img class="min-heart" src="img/header/heart.png" alt=""><p class="like">1.4k</p><img class="sms" src="img/block3/sms.png" alt=""> <p class="plast">1</p> 
+							</div>
+
+
+						<div class="block-for-card">
+							<a href="#"><div class="card">
+								<div class="card__image">
+								<img src="img/block3/slide10_1.jpg" alt="sh">
+								</div>
+								<div class="card__text">БАЗОВЫЙ ТРЕНЧ С ПОЯСОМ</div>
+								<div class="card__price">7 999 ₽</div>
+								<div class="card__button">купить</div>
+							</div></a>
+						</div>
+
+						<div class="right-last">
+							<div class="post"><p>Для непредсказуемой погоды — твой незаменимый тренч 🤍</p>
+							<p class="hesh"><a href="#"> #loverepublic</a></p></div>
+						</div>
+						</div>
+					</div>
+					<div class="scrol__item">
+						<div class="scrol__item__column-left">
+						<div class="small-scrol">
+							<div class="small-scrol__image"><img src="img/block3/slid11__foto1.jpeg" alt="1"></div>
+							<div class="small-scrol__image"><img src="img/block3/slid11__foto2.jpeg" alt="1"></div>
+						</div>
+						</div>
+						<div class="scrol__item__column-right">
+							<div class="card__title"><img class="minlogo" src="img/block3/min.jpg" alt=""><span class="rep">@Loverepublic_official</span><img class="min-heart" src="img/header/heart.png" alt=""><p class="like">1.4k</p><img class="sms" src="img/block3/sms.png" alt=""> <p class="plast">1</p> 
+							</div>
+
+
+						<div class="block-for-card">
+							<a href="#"><div class="card">
+								<div class="card__image">
+								<img src="img/block3/slide11_1.jpg" alt="sh">
+								</div>
+								<div class="card__text">КОСТЮМНЫЕ БРЮКИ-ПЛАЦО</div>
+								<div class="card__price">2 879 ₽<p class="sell">3 599 ₽</p></div>
+								<div class="card__button">купить</div>
+							</div></a>
+						</div>
+						<div class="right-last">
+							<div class="post"><p>Черная рубашка + черные скини - всегда беспроигрышный вариант</p>
+							<p class="hesh"><a href="#"> #loverepublic</a></p></div>
+						</div>
+						</div>
+					</div>
+					<div class="scrol__item">
+						<div class="scrol__item__column-left">
+						<div class="small-scrol">
+							<div class="small-scrol__image"><img src="img/block3/slid12__foto1.jpeg" alt="1"></div>
+							<div class="small-scrol__image"><img src="img/block3/slid12__foto2.jpeg" alt="1"></div>
+						</div>
+						</div>
+						<div class="scrol__item__column-right">
+							<div class="card__title"><img class="minlogo" src="img/block3/min.jpg" alt=""><span class="rep">@Loverepublic_official</span><img class="min-heart" src="img/header/heart.png" alt=""><p class="like">1.4k</p><img class="sms" src="img/block3/sms.png" alt=""> <p class="plast">1</p> 
+							</div>
+
+
+						<div class="block-for-card">
+							<a href="#"><div class="card">
+								<div class="card__image">
+								<img src="img/block3/slide12_1.jpg" alt="sh">
+								</div>
+								<div class="card__text">ХЛОПКОВАЯ БЛУЗКА С ОБЪЕМНЫМИ РУКАВАМИ</div>
+								<div class="card__price">2 399 ₽<p class="sell">2 999 ₽</p></div>
+								<div class="card__button">купить</div>
+							</div></a>
+						</div>
+						<div class="right-last">
+							<div class="post"><p>Черная рубашка + черные скини - всегда беспроигрышный вариант</p>
+							<p class="hesh"><a href="#"> #loverepublic</a></p></div>
+						</div>
+						</div>
+					</div>
+					<div class="scrol__item">
+						<div class="scrol__item__column-left">
+						<div class="small-scrol">
+							<div class="small-scrol__image"><video autoplay muted src="img/block3/video/1.mp4"></video></div>
+						</div>
+						</div>
+						<div class="scrol__item__column-right">
+							<div class="card__title"><img class="minlogo" src="img/block3/min.jpg" alt=""><span class="rep">@Loverepublic_official</span><img class="min-heart" src="img/header/heart.png" alt=""><p class="like">1.4k</p><img class="sms" src="img/block3/sms.png" alt=""> <p class="plast">1</p> 
+							</div>
+
+
+						<div class="block-for-card">
+							<a href="#"><div class="card">
+								<div class="card__image">
+								<img src="img/block3/slide12.jpg" alt="sh">
+								</div>
+								<div class="card__text">OVERSIZE ТРЕНЧ В КЛЕТКУ</div>
+								<div class="card__price">7 999 ₽</div>
+								<div class="card__button">купить</div>
+							</div></a>
+						</div>
+						<div class="right-last">
+							<div class="post"><p>Oversize тренч в клетку — главный мастхэв нового сезона 🔥</p>
+							<p class="hesh"><a href="#"> #loverepublic</a></p></div>
+						</div>
+						</div>
+					</div>
+					<div class="scrol__item">
+						<div class="scrol__item__column-left">
+						<div class="small-scrol">
+							<div class="small-scrol__image"><img src="img/block3/slide13__foto1.jpeg" alt="1"></div>
+							<div class="small-scrol__image"><img src="img/block3/slide13__foto2.jpeg" alt="1"></div>
+						</div>
+						</div>
+						<div class="scrol__item__column-right">
+							<div class="card__title"><img class="minlogo" src="img/block3/min.jpg" alt=""><span class="rep">@Loverepublic_official</span><img class="min-heart" src="img/header/heart.png" alt=""><p class="like">1.4k</p><img class="sms" src="img/block3/sms.png" alt=""> <p class="plast">1</p> 
+							</div>
+
+
+						<div class="block-for-card">
+							<a href="#"><div class="card">
+								<div class="card__image">
+								<img src="img/block3/slide13_1.jpg" alt="sh">
+								</div>
+								<div class="card__text">ТОП-БРА НА ЗАВЯЗКАХ</div>
+								<div class="card__price">2 399 ₽</div>
+								<div class="card__button">купить</div>
+							</div></a>
+							<a href="#"><div class="card">
+								<div class="card__image">
+								<img src="img/block3/slide13_2.jpg" alt="sh">
+								</div>
+								<div class="card__text">ДВУБОРТНЫЙ ЖАКЕТ</div>
+								<div class="card__price">3 679 ₽<p class="sell">4 599 ₽</p></div>
+								<div class="card__button">купить</div>
+							</div></a>
+						</div>
+
+						<div class="right-last">
+							<div class="post"><p>Острые линии, притягательный силуэт и уверенный взгляд — составляющие идеального power look 🖤</p>
+							<p class="hesh"><a href="#"> #loverepublic</a></p></div>
+						</div>
+						</div>
+					</div>
+					<div class="scrol__item">
+						<div class="scrol__item__column-left">
+						<div class="small-scrol">
+							<div class="small-scrol__image"><img src="img/block3/slid14__foto1.jpeg" alt="1"></div>
+							<div class="small-scrol__image"><img src="img/block3/slid14__foto2.jpeg" alt="1"></div>
+						</div>
+						</div>
+						<div class="scrol__item__column-right">
+							<div class="card__title"><img class="minlogo" src="img/block3/min.jpg" alt=""><span class="rep">@Loverepublic_official</span><img class="min-heart" src="img/header/heart.png" alt=""><p class="like">1.4k</p><img class="sms" src="img/block3/sms.png" alt=""> <p class="plast">1</p> 
+							</div>
+
+						<div class="block-for-card">
+							<a href="#"><div class="card">
+								<div class="card__image">
+								<img src="img/block3/slide14_1.jpg" alt="sh">
+								</div>
+								<div class="card__text">ТОП-БРА ИЗ ЭКОКОЖИ</div>
+								<div class="card__price">2 599 ₽</div>
+								<div class="card__button">купить</div>
+							</div></a>
+							<a href="#"><div class="card">
+								<div class="card__image">
+								<img src="img/block3/slide14_2.jpg" alt="sh">
+								</div>
+								<div class="card__text">ЖАКЕТ УДЛИНЕННОГО КРОЯ</div>
+								<div class="card__price">3 199 ₽<p class="sell">3 999 ₽</p></div>
+								<div class="card__button">купить</div>
+							</div></a>
+							<a href="#"><div class="card">
+								<div class="card__image">
+								<img src="img/block3/slide14_3.jpg" alt="sh">
+								</div>
+								<div class="card__text">УДЛИНЕННЫЕ БЕРМУДЫ ИЗ ЭКОКОЖИ</div>
+								<div class="card__price">2 999 ₽<p class="sell">2 999 ₽</p></div>
+								<div class="card__button">купить</div>
+							</div></a>
+						</div>
+
+						<div class="right-last">
+							<div class="post"><p>Тотал-луки из экокожи — жаркий тренд сезона для самых смелых 🔥</p>
+							<p class="hesh"><a href="#"> #loverepublic</a></p></div>
+						</div>
+						</div>
+					</div>
+					<div class="scrol__item">
+						<div class="scrol__item__column-left">
+						<div class="small-scrol">
+							<div class="small-scrol__image"><video autoplay muted src="img/block3/video/2.mp4"></video></div>
+						</div>
+						</div>
+						<div class="scrol__item__column-right">
+							<div class="card__title"><img class="minlogo" src="img/block3/min.jpg" alt=""><span class="rep">@Loverepublic_official</span><img class="min-heart" src="img/header/heart.png" alt=""><p class="like">1.4k</p><img class="sms" src="img/block3/sms.png" alt=""> <p class="plast">1</p> 
+							</div>
+
+
+						<div class="block-for-card">
+							<a href="#"><div class="card">
+								<div class="card__image">
+								<img src="img/block3/slide15_1.jpg" alt="sh">
+								</div>
+								<div class="card__text">ТОП-КОРСЕТ НА ТОНКИХ БРЕТЕЛЬКАХ</div>
+								<div class="card__price">2 239 ₽<p class="sell">2 799 ₽</p></div>
+								<div class="card__button">купить</div>
+							</div></a>
+						</div>
+						<div class="right-last">
+							<div class="post"><p>Твоя лучшая покупка сезона — костюм с брюками-палаццо в стиле power dressing 💥</p>
+							<p class="hesh"><a href="#"> #loverepublic</a></p></div>
+						</div>
+					</div>
+					</div>
+				</div>
+			</div>
+			<div class="block7" data-da="block8,1,770">	
+					<div class="block7__item">
+						<div class="block7__item__image"><img class="drive" src="img/block4/1.png" alt="g"></div>
+						<div class="block7__item__text">доставка в магазин через 4 часа</div>
+					</div>
+					<div class="block7__item">
+						<div class="block7__item__image"><img class="pay" src="img/block4/2.png" alt="g"></div>
+						<div class="block7__item__text">простая оплата</div>
+					</div>
+					<div class="block7__item">
+						<div class="block7__item__image"><img class="discount" src="img/block4/3.png" alt="g"></div>
+						<div class="block7__item__text">скидка при оплате онлайн</div>
+					</div>
+			</div>
+			<div class="block8">
+				<div class="block8__item">
+					<div class="block8__item__image"><img src="img/block4/bgjpg.jpg" alt="d"></div>
+					<div class="block8__item__title">STRONG OUTFIT</div>
+					<span class="redline"></span>
+					<div class="block8__item__text">СМОТРЕТЬ ЛУКБУК <span>></span></div>
+				</div>
+			</div>
+			<div class="block9">
+				<div class="block9__item">
+					<div class="block9__item__image">
+						<img src="img/block5/1.jpg" alt="d">
+					</div>
+					<div class="block9__item__image delite">
+						<img src="img/block5/2.jpg" alt="">
+					</div>
+				</div>
+				<div class="block9__item2">
+					<div class="block9__item2__title">ЖАКЕТ ЖЕНСКИЙ</div>
+					<span class="redline2"></span>
+					<div class="block9__item2__text">3 679 ₽ <span>></span></div>
+				</div>
+			</div>
+			<div class="block10">
+				<div class="block10__item">
+					<div class="block10__item__image"><img src="img/block6/1.jpg" alt=""></div>
+					<div class="block10__item__title">love csrd</div>
+					<span></span>
+					<div class="block10__item__text">получить карту <p>></p></div>
+				</div>
+				<div class="block10__item">
+					<div class="block10__item__image"><img src="img/block6/2.jpg" alt=""></div>
+					<div class="block10__item__title">instashopping</div>
+					<span></span>
+					<div class="block10__item__text">подробнее <p>></p></div>
+				</div>
+				<div class="block10__item">
+					<div class="block10__item__image"><img src="img/block6/3.jpg" alt=""></div>
+					<div class="block10__item__title">приложение</div>
+					<span></span>
+					<div class="block10__item__text">скачать <p>></p></div>
+				</div>
+				<div class="block10__item hide">
+					<div class="block10__item__image"><img src="img/block6/4.jpg" alt=""></div>
+					<div class="block10__item__title">жакет</div>
+					<span class="redline-bl10"></span>
+					<div class="block10__item__text">смотреть <p>></p></div>
+				</div>
+			</div>
+			<div class="block11">
+				<div class="block11__row1">
+					<div class="title">ИНТЕРНЕТ-МАГАЗИН МОДНОЙ ЖЕНСКОЙ ОДЕЖДЫ LOVE REPUBLIC</div>
+					<p>
+						Официальный интернет-магазин одного из ведущих российских брендов для молодых, ярких, активных и успешных девушек, которые хотят найти свой индивидуальный стиль, создать свой идеальный образ. В нашем магазине женской одежды представлены самые актуальные модели одежды и аксессуаров от собственных дизайнеров бренда, которые точно знают, как подчеркнуть женственность и чувственность, стиль и чувство вкуса каждой девушки.
+					</p>
+					<p>
+						Основной ассортимент интернет-магазина LOVE REPUBLIC – платья. И каждую неделю мы обновляем и дополняем наш каталог новыми моделями в соответствии с последними трендами мира моды. Кроме того, в нашем интернет-магазине можно подобрать look на любой вкус и для любого события: помимо платьев в LOVE REPUBLIC представлены джемперы и блузки, юбки, брюки, джинсы и шорты, жакеты и жилеты, комбинезоны и, конечно, верхняя одежда, одежда для дома и сна, аксессуары.
+					</p>
+					<p>Далее</p>
+				</div>
+				<div class="block11__row2">
+					<div class="column">
+						<ul class="block11-ul">
+							<a href="#"><a href="#"><h2>каталог</h2></a>
+							<a href="#"><li>новинки</li></a>
+							<a href="#"><li>одежда</li></a>
+							<a href="#"><li>аксессуары</li></a>
+							<a href="#"><li>sale</li></a>
+						</ul>
+					</div>
+					<div class="column">
+						<ul><a href="#"><h2>LOOKBOOK</h2></a>
+						</ul>
+					</div>
+					<div class="column">
+						<ul><a href="#"><h2>LOVE REPUBLIC</h2></a>
+							<a href="#"><li>О бренде</li></a>
+							<a href="#"><li>О компании</li></a>
+							<a href="#"><li>Новости и акции</li></a>
+							<a href="#"><li>Карьера в LOVE REPUBLIC</li></a>
+							<a href="#"><li>Франчайзинг</li></a>
+							<a href="#"><li>Магазины</li></a>
+						</ul>
+					</div>
+					<div class="column">
+						<ul><a href="#"><h2>ИНФОРМАЦИЯ</h2></a>
+							<a href="#"><li>Оплата</li></a>
+							<a href="#"><li>Покупка в рассрочку</li></a>
+							<a href="#"><li>Доставка</li></a>
+							<a href="#"><li>Обмен и возврат</li></a>
+							<a href="#"><li>Подарочная карта</li></a>
+							<a href="#"><li>Программа лояльности</li></a>
+							<a href="#"><li>Политика конфиденциальности</li></a>
+							<a href="#"><li>Правила работы интернет-магазина</li></a>
+							<a href="#"><li>Пользовательское соглашение</li></a>
+							<a href="#"><li>Правила проведения конкурса «Шопинг с подругой»</li></a>
+							<a href="#"><li>Privacy policy</li></a>
+							<a href="#"><li>Часто задаваемые вопросы</li></a>
+							<a href="#"><li>Контакты</li></a>
+							<a href="#"><li>Обратная связь</li></a>
+						</ul>
+					</div>
+					<div class="column">
+						<ul><a href="#"><h2>СПОСОБЫ ОПЛАТЫ</h2>
+							<a href="#"><li><img src="img/block11/2.jpg" alt=""></li></a>
+							<a href="#"><li><img src="img/block11/3.jpg" alt=""></li></a>
+							<a href="#"><li><img src="img/block11/4.jpg" alt=""></li></a>
+							<a href="#"><li><img src="img/block11/5.jpg" alt=""></li></a>
+							<a href="#"><li><img src="img/block11/6.jpg" alt=""></li></a>
+							<a href="#"><li><img src="img/block11/7.jpg" alt=""></li></a>
+							<a href="#"><li><img src="img/block11/8.jpg" alt=""></li></a>
+						</ul>
+					</div>
+				</div>
+				<div class="block11__row3">
+					<div class="block11__row3__column1">
+						<input class="vvod" type="email" value="Укажите ваш email адрес" onfocus="this.value = ''"><button>ПОДПИСАТЬСЯ</button>
+						<div class="check">
+						<a href="#"><input checked type="checkbox" value="yes"/></a><p>Да, я хочу получать информационную рассылку</p>
+						</div>
+					</div>
+					<div class="block11__row3__column2">
+						<a href="#"><div class="row1">8(800) 250-32-33 круглосуточно</div></a>
+						<a href="#"><div class="row2">info@loverepublic.ru</div></a>
+						<div class="row3">
+							<a href="#"><img src="img/block11/1.jpeg" alt="c"></a>
+							<a href="#"><img src="img/block11/2.jpeg" alt="c"></a>
+							<a href="#"><img src="img/block11/3.jpeg" alt="c"></a>
+							<a href="#"><img src="img/block11/4.jpeg" alt="c"></a>
+						</div>
+					</div>
+				</div>
+				<div class="block11__row4">
+					<p>LOVE REPUBLIC © 2009 - 2021</p>
+					<p>Использование материалов с сайта LOVEREPUBLIC.RU без разрешения правообладателя и активной ссылки на сайт запрещено.</p>
+					<a href="#"><p>Карта сайта</p></a>
+				</div>
+			</div>
+		</main>
+		<footer class="footer"></footer>
+	</div>
+	
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+	<script src="js/script.js"></script>
+
+	<script src="js/slick.min.js"></script>
+</body>
+</html>
